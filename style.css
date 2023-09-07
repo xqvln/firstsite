@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #B2CCF7;
+    background-color: #BAD7D7;
 }
 
 header {
@@ -8,18 +8,18 @@ header {
     padding: ;
     margin-bottom: 20px;
     display: flex;
-    background-color: #BCC2CD;
 }
 
 .button {
     color: black;
     text-decoration: none;
-    padding: 15px;
+    padding: 5px 5px 0px 5px;
     font-size: 24px;
     border-radius: 10px;
     margin-top: 5px;
     margin-right: 5px;
-    background-color: #79869C;
+    background-color: #CBC5E0;
+    border: 5px solid #6E6197;
 }
 
 nav {
@@ -34,6 +34,10 @@ nav {
     font-size: 24px;
     color: black;
     text-decoration: none;
+    border: 5px solid #6E6197;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: #CBC5E0;
 }
 
 h1 {
@@ -53,7 +57,6 @@ p {
     width: 1100px;
     margin: 0px;
     display: flex;
-    background-color: #7C8EAC;
 }
 
 article {
@@ -70,18 +73,27 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 footer {
     padding: ;
     display: flex;
-    background-color: #BCC2CD;
 }
 
 footer a {
-    margin-right: ;
+    margin-top: 60px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 footer p {
     font-size: 24px;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.photo {
+    margin-left: 15px;
 }
